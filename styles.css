@@ -1,0 +1,41 @@
+#board {
+    padding: 3em;
+    text-align: center;
+}
+
+.row {
+    position:absolute;
+    padding-left: 18.7em;
+}
+
+.row > .top {
+    float: left;
+    height: 100px;
+    width: 100px;
+    border-bottom: 2px solid black;
+}
+
+.row > .central {
+    float: left;
+    height: 100px;
+    width: 100px;
+    margin-top: 6.3em;
+    border-top: 1px solid black;
+    border-bottom: 2px solid black;
+}
+
+.row > .bottom {
+    float: left;
+    height: 100px;
+    width: 100px;
+    margin-top: 12.4em;
+    border-top: 2px solid black;
+}
+
+.row > .left {
+    border-right: 2px solid black;
+}
+
+.row > .right {
+    border-left: 2px solid black;
+}
